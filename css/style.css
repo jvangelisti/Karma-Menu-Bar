@@ -13,3 +13,19 @@ div {
 	height: 70px;
 	margin: 0 auto; /* using the margin:0 auto trick to make the .content inside the .top-navigation always centered.  The first value ("0") is the top and bottom margin, the second value ("auto") is the left and right margin.  This is another way of writing margin-right: auto; and margin:left auto; */
 }
+.links {
+	float: right;
+	padding-top: .5em;
+	margin-right: .75em;
+}
+
+.links > li {
+	display: inline-block;
+	padding-left: 1em;
+}
+.karma-logo {
+	width: 1.875em;
+	height: 2.8125em;
+	margin-left: .75em;
+	margin-top: .75em;
+}
