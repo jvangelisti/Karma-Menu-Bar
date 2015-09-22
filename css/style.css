@@ -4,3 +4,12 @@ body {
 div {
     border: 1px solid Chocolate;
 }
+/* navigation section */
+.top-navigation {
+	background-color: #FFFFFF;
+}
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto; /* using the margin:0 auto trick to make the .content inside the .top-navigation always centered.  The first value ("0") is the top and bottom margin, the second value ("auto") is the left and right margin.  This is another way of writing margin-right: auto; and margin:left auto; */
+}
