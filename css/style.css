@@ -20,12 +20,7 @@ a:hover {
 a:active {
     color: #4C5058;
 }
-body {
-    background-color: LightGray;
-}
-div {
-    border: 1px solid Chocolate;
-}
+
 .karma-content {
 	text-align: center;
 	margin-top: 15em;
@@ -103,6 +98,7 @@ div {
 .cases {
 	overflow: auto;
 	text-align: center;
+	margin: 0 auto;
 }
 .cases h2 {
 	font-size: 2.75rem;
@@ -124,4 +120,38 @@ div {
 	font-size: 1.4rem;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
+}
+.social {
+	overflow: auto;
+	text-align: center;
+	width: 65em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 7.5em;
+}
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.icons {
+	margin-right: 2.5em;
+	margin-top: -1.5em;
+	margin-bottom: -.3em;
+}
+hr {
+height: 1px;
+color: #EAEBEC;
+background-color: #EAEBEC;
+border: none;
+}
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
 }
