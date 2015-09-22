@@ -26,6 +26,11 @@ body {
 div {
     border: 1px solid Chocolate;
 }
+.karma-content {
+	text-align: center;
+	margin-top: 10.7em;
+	color: #FFFFFF;
+}
 /* navigation section */
 .top-navigation {
 	background-color: #FFFFFF;
@@ -60,4 +65,35 @@ div {
 	height: 2.8125em;
 	margin-left: .75em;
 	margin-top: .75em;
+}
+.introduction {
+	background-image: url(../images/first-background.jpg);
+	background-position: center bottom;
+		background-position-y: -13.3em;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 41.5rem;
+	overflow: auto;
+}
+.introduction h1 {
+	font-size: 3.125rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	margin-bottom: -.225em;
+}
+.introduction h3 {
+	font-size: 1.563rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+.big-button {
+	width: 9.688rem;
+	background-color: #F15A29;
+	border-color: #F15A29;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	color: white;
+	font-size: 1.125rem;
 }
