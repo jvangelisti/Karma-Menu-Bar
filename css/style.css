@@ -28,7 +28,7 @@ div {
 }
 .karma-content {
 	text-align: center;
-	margin-top: 10.7em;
+	margin-top: 15em;
 	color: #FFFFFF;
 }
 /* navigation section */
@@ -39,14 +39,14 @@ div {
 	z-index: 9999;
 }
 .top-navigation .content {
-	width: 970px;
-	height: 70px;
+	width: 70em;
+	height: 4.65em;
 	margin: 0 auto; /* using the margin:0 auto trick to make the .content inside the .top-navigation always centered.  The first value ("0") is the top and bottom margin, the second value ("auto") is the left and right margin.  This is another way of writing margin-right: auto; and margin:left auto; */
 }
 .top-navigation .links {
 	float: right;
 	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
+	font-size: 1.05em;
 	letter-spacing: 0.03em;
 	padding-top: .5em;
 	margin-right: .75em;
@@ -72,10 +72,10 @@ div {
 .introduction {
 	background-image: url(../images/first-background.jpg);
 	background-position: center bottom;
-		background-position-y: -13.3em;
+		background-position-y: -8.7em;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 41.5em;
+	height: 46.5em;
 	overflow: auto;
 }
 .introduction h1 {
@@ -109,13 +109,19 @@ div {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	text-align: center;
-	margin-top: 3em;
+	margin-top: 2.6em;
 }
 .cases .devices {
-    width: 16em;
+    width: 24em;
     display: inline-block;
     /* styles to assist with debugging */
     box-sizing: border-box;
     height: 8.2em;
     margin-left: -5px;
+    margin-top: .5em;
+}
+.device-words {
+	font-size: 1.4rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
